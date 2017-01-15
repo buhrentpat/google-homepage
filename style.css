@@ -1,6 +1,7 @@
 body{
-    
+    font-family: sans-serif;
 }
+
 #navigation {
     position: absolute;
     right: 0;
@@ -8,11 +9,36 @@ body{
 }
 
 #content {
-    top: 150px;
-    clear: both;
+
 }
 
 #logo {
     background-image: url("logo.png");
-    backgound-color: #fff;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 272px 92px; 
+    height:92px; 
+    width:272px;
+    position: relative;
+
+}
+
+#logotxt {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #999999;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
 }
