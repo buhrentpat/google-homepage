@@ -3,7 +3,7 @@ body{
 
 }
 
-/* logo & search bar css */
+/* logo & content section css */
 
 #content {
     position: relative;
@@ -25,6 +25,27 @@ body{
     top: 55px;
     right: 0px;
     color: #4285f4;
+}
+
+/* form search bar css */
+
+#searchform {
+    padding: 10px;
+}
+
+input {
+    width: 70%;
+    box-sizing: border-box;
+    border: 0.5px solid #cccccc;
+    padding: 10px;
+}
+
+#buttons {
+    padding: 30px;
+}
+
+button {
+    border-bottom-style: outset;
 }
 
 /* CSS for top navigation and bottom navigation */
